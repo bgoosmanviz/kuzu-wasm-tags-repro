@@ -1,0 +1,17 @@
+{
+  "name": "kuzu-wasm-tags-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp node_modules/kuzu-wasm/kuzu_wasm_worker.js dist/assets/kuzu_wasm_worker.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "kuzu-wasm": "^0.8.0"
+  }
+}
