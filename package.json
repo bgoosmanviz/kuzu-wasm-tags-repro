@@ -12,6 +12,6 @@
     "vite": "^6.1.0"
   },
   "dependencies": {
-    "kuzu-wasm": "^0.8.0"
+    "kuzu-wasm": "0.8.1-dev.12"
   }
 }
